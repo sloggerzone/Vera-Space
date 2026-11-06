@@ -1,0 +1,12 @@
+<svg viewBox="0 0 320 180" preserveAspectRatio="xMidYMid slice">
+                <defs>
+                  <linearGradient id="sky4" x1="0" y1="0" x2="0" y2="1">
+                    <stop offset="0%" stop-color="#0a1018"/><stop offset="55%" stop-color="#152030"/><stop offset="100%" stop-color="#1c2836"/>
+                  </linearGradient>
+                </defs>
+                <rect width="320" height="180" fill="url(#sky4)"/>
+                <path d="M0 180 L40 100 L70 120 L110 60 L150 95 L190 45 L230 85 L270 55 L320 100 V180 Z" fill="#3e4c5c" opacity=".7"/>
+                <path d="M0 180 L40 100 L55 112 L70 120 L50 180 Z" fill="#2a3644" opacity=".65"/>
+                <path d="M150 95 L190 45 L210 70 L230 85 L180 180 L140 180 Z" fill="#344250" opacity=".6"/>
+                <path d="M110 60 L130 72 L150 95 L190 45 L170 55 Z" fill="#6a7a8a" opacity=".22"/>
+              </svg>

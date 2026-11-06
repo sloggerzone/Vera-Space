@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Zone Slogger — 硬件产品经理 + AI 技术产品。产品、星空与雪山。" />
+  <meta name="theme-color" content="#080F1D" />
+  <title>Zone Slogger</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%23080F1D'/%3E%3Cpath d='M16 6l1.2 3.8L21 11l-3.8 1.2L16 16l-1.2-3.8L11 11l3.8-1.2L16 6z' fill='%23c8dde8'/%3E%3Cpath d='M6 24h20l-4-6H10l-4 6z' fill='none' stroke='%23c8dde8' stroke-width='1.25'/%3E%3C/svg%3E" />
+  <link rel="stylesheet" href="assets/styles.css" />
+  <link rel="stylesheet" href="assets/home.css" />
+</head>
+<body class="home">
+  <a class="skip-link" href="#main">跳到主要内容</a>
+
+  <header class="topbar" id="top">
+    <div class="topbar__inner">
+      <a class="wordmark" href="#top">
+        <span class="wordmark__name">Zone Slogger</span>
+        <span class="wordmark__suffix">/ 产品 · 星空 · 雪山</span>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="打开菜单">
+        <span class="nav-toggle__bars" aria-hidden="true"></span>
+      </button>
+      <nav class="topnav" id="site-nav" aria-label="站点导航">
+        <a href="#work">作品</a>
+        <a href="#writing">文章</a>
+        <a href="#about">关于</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Full-bleed atmosphere (not clipped by .shell) -->
+  <div class="sky" aria-hidden="true">
+    <div class="sky__glow"></div>
+    <div class="sky__vignette"></div>
+        <svg class="sky__stars" viewBox="0 0 1440 720" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+          <circle cx="86" cy="64" r="1.3" opacity="0.90"/>
+          <circle cx="168" cy="128" r="0.8" opacity="0.48"/>
+          <circle cx="240" cy="52" r="1.1" opacity="0.72"/>
+          <circle cx="312" cy="176" r="0.75" opacity="0.42"/>
+          <circle cx="390" cy="96" r="1.55" opacity="0.95"/>
+          <circle cx="455" cy="210" r="0.7" opacity="0.38"/>
+          <circle cx="520" cy="70" r="0.9" opacity="0.55"/>
+          <circle cx="598" cy="150" r="1.2" opacity="0.80"/>
+          <circle cx="670" cy="40" r="0.8" opacity="0.50"/>
+          <circle cx="748" cy="118" r="1.0" opacity="0.62"/>
+          <circle cx="820" cy="188" r="0.7" opacity="0.36"/>
+          <circle cx="890" cy="78" r="1.35" opacity="0.88"/>
+          <circle cx="960" cy="160" r="0.8" opacity="0.45"/>
+          <circle cx="1035" cy="55" r="1.1" opacity="0.68"/>
+          <circle cx="1100" cy="200" r="0.75" opacity="0.40"/>
+          <circle cx="1175" cy="110" r="0.9" opacity="0.52"/>
+          <circle cx="1250" cy="48" r="1.2" opacity="0.78"/>
+          <circle cx="1320" cy="170" r="0.7" opacity="0.42"/>
+          <circle cx="1380" cy="90" r="0.85" opacity="0.50"/>
+          <circle cx="140" cy="240" r="0.7" opacity="0.34"/>
+          <circle cx="430" cy="280" r="0.75" opacity="0.32"/>
+          <circle cx="720" cy="250" r="0.9" opacity="0.40"/>
+          <circle cx="980" cy="300" r="0.7" opacity="0.30"/>
+          <circle cx="1220" cy="260" r="0.8" opacity="0.36"/>
+          <circle cx="60" cy="180" r="0.75" opacity="0.38"/>
+          <circle cx="1050" cy="240" r="1.0" opacity="0.48"/>
+          <circle cx="300" cy="320" r="0.7" opacity="0.28"/>
+          <circle cx="600" cy="340" r="0.7" opacity="0.26"/>
+          <circle cx="880" cy="360" r="0.7" opacity="0.24"/>
+          <circle cx="1350" cy="300" r="0.75" opacity="0.32"/>
+          <circle cx="200" cy="90" r="0.8" opacity="0.44"/>
+          <circle cx="780" cy="300" r="0.7" opacity="0.28"/>
+          <circle cx="1150" cy="330" r="0.75" opacity="0.30"/>
+        </svg>
+  </div>
+
+  <div class="shell">
+    <main id="main">
+      <!-- Hero -->
+      <section class="hero" aria-label="简介">
+        <div class="hero__content">
+          <div class="hero__identity">
+<div class="hero__avatar" aria-hidden="true">
+          <svg viewBox="0 0 112 112" role="img" aria-label="ZS">
+            <defs>
+              <linearGradient id="avGrad" x1="0" y1="0" x2="1" y2="1">
+                <stop offset="0%" stop-color="#1a2433"/>
+                <stop offset="55%" stop-color="#141c28"/>
+                <stop offset="100%" stop-color="#0c1018"/>
+              </linearGradient>
+            </defs>
+            <circle cx="56" cy="56" r="56" fill="url(#avGrad)"/>
+            <circle cx="56" cy="56" r="55" fill="none" stroke="#ffffff18" stroke-width="1"/>
+            <path d="M56 18l1.6 5L63 24.6l-5.4 1.7L56 31.4l-1.6-5.1L49 24.6l5.4-1.6L56 18z" fill="#c8dde8" opacity="0.85"/>
+            <text x="56" y="64" text-anchor="middle" fill="#e8eef3" font-family="system-ui,sans-serif" font-size="28" font-weight="600" letter-spacing="1">ZS</text>
+            <path d="M30 86h52l-9-12H39L30 86z" fill="none" stroke="#c8dde8" stroke-width="1.4" opacity="0.7"/>
+          </svg>
+        </div>
+            <div class="hero__who">
+              <h1 class="hero__name">Zone Slogger</h1>
+            </div>
+          </div>
+        <p class="hero__headline">把复杂系统收束成可感知的体验</p>
+          <p class="hero__bio">硬件产品经理，也做 AI 技术产品。先谈清约束，再寻找可能性。</p>
+          <div class="hero__meta">
+            <div class="hero__social" aria-label="社交链接">
+              <a class="icon-link" href="mailto:hello@zone.example" title="邮箱" aria-label="邮箱">
+                <svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true"><path fill="currentColor" d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4-8 5L4 8V6l8 5 8-5v2z"/></svg>
+              </a>
+              <a class="icon-link pending" href="#" title="待替换" aria-label="X（待替换）">
+                <svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true"><path fill="currentColor" d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.744l7.727-8.828L1.254 2.25H8.08l4.258 5.686L18.244 2.25zm-1.161 17.52h1.833L7.084 4.126H5.117L17.083 19.77z"/></svg>
+              </a>
+              <a class="icon-link pending" href="#" title="待替换" aria-label="LinkedIn（待替换）">
+                <svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true"><path fill="currentColor" d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+              </a>
+              <a class="icon-link pending" href="#" title="待替换" aria-label="GitHub（待替换）">
+                <svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true"><path fill="currentColor" d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+              </a>
+              <a class="icon-link pending" href="#" title="待替换" aria-label="即刻（待替换）">
+                <svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true"><path fill="currentColor" d="M5 3h14a3 3 0 013 3v9a3 3 0 01-3 3h-4.6L8 22.5V18H5a3 3 0 01-3-3V6a3 3 0 013-3zm3.25 6.1a1.35 1.35 0 100 2.7 1.35 1.35 0 000-2.7zm3.75 0a1.35 1.35 0 100 2.7 1.35 1.35 0 000-2.7zm3.75 0a1.35 1.35 0 100 2.7 1.35 1.35 0 000-2.7z"/></svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- About -->
+      <section class="about" id="about" aria-labelledby="about-heading">
+        <h2 class="sr-only" id="about-heading">关于</h2>
+        <div class="about__grid">
+          <div class="about__copy">
+          <p class="about__label">示例 · 产品理念与工作方式</p>
+            <p class="about__lede">我做硬件产品，也关注 AI 能力如何进入真实场景。在物理极限、成本、供应链节奏与用户习惯之间，寻找可验证的产品判断。</p>
+            <p>不迷信概念包装，偏好诚实的指标和可感知的体验。规格不是枷锁，是多方坐上同一张桌子的理由。</p>
+          </div>
+          <div class="about__side">
+            <dl class="about__facts">
+            <div><dt>角色</dt><dd>硬件产品经理 · AI 技术产品</dd></div>
+            <div><dt>领域</dt><dd>规格、场景优先级、体验边界</dd></div>
+            <div><dt>方法</dt><dd>先谈清约束，再寻找可能性</dd></div>
+            </dl>
+          </div>
+        </div>
+      </section>
+
+      <!-- Selected Work -->
+      <section class="work" id="work" aria-labelledby="work-heading">
+        <div class="sec-head">
+          <h2 class="sec-head__title" id="work-heading">精选项目</h2>
+          <span class="sec-head__meta">3 项 · 示例</span>
+        </div>
+        <div class="work__list">
+        <article class="project">
+          <div class="project__inner">
+            <div class="project__text">
+              <p class="project-eyebrow">个人推进 · 2025 — <span class="badge">推进中 · 示例</span></p>
+              <h3 class="project-title">设备侧智能产品线</h3>
+              <p class="project-desc">端侧推理与传感器融合：对齐规格、场景优先级与体验边界。把「能做什么」写成可验证的场景清单，而不是参数海报。</p>
+              <div class="project-links">
+                <span class="project-link muted">规格草案 <small>示例</small></span>
+                <span class="project-link muted">场景表 <small>示例</small></span>
+              </div>
+            </div>
+            <div class="project-band__media" aria-hidden="true">
+              <div class="proj-visual proj-visual--main">
+                <svg viewBox="0 0 420 240" preserveAspectRatio="xMidYMid slice">
+                  <rect width="420" height="240" fill="#0a1220"/>
+                  <rect x="24" y="24" width="372" height="192" rx="8" fill="#101c2e" stroke="#ffffff14"/>
+                  <rect x="40" y="40" width="120" height="80" rx="4" fill="#162436" stroke="#ffffff12"/>
+                  <rect x="176" y="40" width="200" height="12" rx="2" fill="#ffffff14"/>
+                  <rect x="176" y="60" width="160" height="8" rx="2" fill="#ffffff10"/>
+                  <rect x="176" y="76" width="180" height="8" rx="2" fill="#ffffff0a"/>
+                  <g stroke="#A9CBE0" stroke-width="1.2" fill="none" opacity=".7">
+                    <path d="M50 150 H150"/><path d="M50 170 H130"/><path d="M50 190 H140"/>
+                  </g>
+                  <circle cx="320" cy="160" r="36" fill="none" stroke="#A9CBE0" stroke-width="1.5" opacity=".5"/>
+                  <circle cx="320" cy="160" r="20" fill="#A9CBE018" stroke="#A9CBE0" stroke-width="1" opacity=".8"/>
+                  <text x="40" y="228" fill="#8a9bb0" font-size="10" font-family="system-ui,sans-serif">端侧 · 传感器融合示意</text>
+                </svg>
+              </div>
+              <div class="proj-visual-stack">
+                <div class="proj-visual">
+                  <svg viewBox="0 0 200 110" preserveAspectRatio="xMidYMid slice">
+                    <rect width="200" height="110" fill="#0e1a2c"/>
+                    <path d="M20 80 L50 40 L80 55 L110 25 L140 45 L180 30" fill="none" stroke="#A9CBE0" stroke-width="1.5"/>
+                    <circle cx="110" cy="25" r="3" fill="#A9CBE0"/>
+                    <text x="16" y="100" fill="#8a9bb0" font-size="9" font-family="system-ui,sans-serif">功耗曲线</text>
+                  </svg>
+                </div>
+                <div class="proj-visual">
+                  <svg viewBox="0 0 200 110" preserveAspectRatio="xMidYMid slice">
+                    <rect width="200" height="110" fill="#0e1a2c"/>
+                    <rect x="24" y="30" width="40" height="50" rx="3" fill="#182840" stroke="#ffffff18"/>
+                    <rect x="80" y="40" width="40" height="40" rx="3" fill="#182840" stroke="#ffffff18"/>
+                    <rect x="136" y="50" width="40" height="30" rx="3" fill="#182840" stroke="#ffffff18"/>
+                    <text x="16" y="100" fill="#8a9bb0" font-size="9" font-family="system-ui,sans-serif">场景分层</text>
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="project project--compact">
+          <div class="project__inner">
+            <div class="project__text">
+              <p class="project-eyebrow">原型实验 · 2024–25 <span class="badge">原型 · 示例</span></p>
+              <h3 class="project-title">交互克制实验</h3>
+              <p class="project-desc">减少界面噪声，把能力放进正确时机。一组原型与可用性笔记：何时出现、何时沉默，比「多一个入口」更重要。</p>
+              <div class="project-links">
+                <span class="project-link muted">原型集 <small>示例</small></span>
+                <span class="project-link muted">笔记 <small>示例</small></span>
+              </div>
+            </div>
+            <div class="project-band__media project-band__media--posters project-band__media--thumb" aria-hidden="true">
+              <div class="poster">
+                <svg viewBox="0 0 160 220" preserveAspectRatio="xMidYMid slice">
+                  <rect width="160" height="220" fill="#101c2e"/>
+                  <rect x="20" y="40" width="120" height="8" rx="2" fill="#ffffff20"/>
+                  <rect x="30" y="60" width="100" height="6" rx="2" fill="#ffffff12"/>
+                  <rect x="40" y="100" width="80" height="80" rx="40" fill="none" stroke="#A9CBE0" stroke-width="1.2" opacity=".5"/>
+                  <circle cx="80" cy="140" r="8" fill="#A9CBE0" opacity=".35"/>
+                  <text x="80" y="200" text-anchor="middle" fill="#8a9bb0" font-size="10" font-family="system-ui,sans-serif">时机</text>
+                </svg>
+              </div>
+              <div class="poster">
+                <svg viewBox="0 0 160 220" preserveAspectRatio="xMidYMid slice">
+                  <rect width="160" height="220" fill="#0c1524"/>
+                  <path d="M30 180 L80 40 L130 180 Z" fill="none" stroke="#A9CBE0" stroke-width="1" opacity=".6"/>
+                  <line x1="50" y1="140" x2="110" y2="140" stroke="#ffffff18"/>
+                  <text x="80" y="200" text-anchor="middle" fill="#8a9bb0" font-size="10" font-family="system-ui,sans-serif">噪声</text>
+                </svg>
+              </div>
+              <div class="poster">
+                <svg viewBox="0 0 160 220" preserveAspectRatio="xMidYMid slice">
+                  <rect width="160" height="220" fill="#121e30"/>
+                  <g stroke="#ffffff14" stroke-width="1">
+                    <line x1="20" y1="50" x2="140" y2="50"/><line x1="20" y1="80" x2="140" y2="80"/>
+                    <line x1="20" y1="110" x2="140" y2="110"/><line x1="20" y1="140" x2="100" y2="140"/>
+                  </g>
+                  <rect x="20" y="50" width="60" height="4" fill="#A9CBE0" opacity=".4"/>
+                  <text x="80" y="200" text-anchor="middle" fill="#8a9bb0" font-size="10" font-family="system-ui,sans-serif">克制</text>
+                </svg>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="project project--compact">
+          <div class="project__inner">
+            <div class="project__text">
+              <p class="project-eyebrow">方法整理 · 2023 — <span class="badge">整理中 · 示例</span></p>
+              <h3 class="project-title">硬件规格书方法</h3>
+              <p class="project-desc">把约束写成可谈判的语言，连接研发、供应链与市场。规格不是枷锁，是多方坐上同一张桌子的理由。</p>
+              <div class="project-links">
+                <a class="project-link" href="articles/constraint-and-freedom.html">相关文章 ↗</a>
+              </div>
+            </div>
+            <div class="project-band__media project-band__media--thumb" aria-hidden="true">
+              <div class="proj-visual proj-visual--wide">
+                <svg viewBox="0 0 520 220" preserveAspectRatio="xMidYMid slice">
+                  <rect width="520" height="220" fill="#0a1220"/>
+                  <g font-family="system-ui,sans-serif" font-size="10" fill="#8a9bb0">
+                    <rect x="24" y="24" width="150" height="172" rx="6" fill="#101c2e" stroke="#ffffff14"/>
+                    <text x="40" y="48" fill="#A9CBE0">约束</text>
+                    <text x="40" y="72">温度 −20～55℃</text>
+                    <text x="40" y="92">功耗包络</text>
+                    <text x="40" y="112">天线净空</text>
+                    <rect x="186" y="24" width="150" height="172" rx="6" fill="#101c2e" stroke="#ffffff14"/>
+                    <text x="202" y="48" fill="#A9CBE0">谈判</text>
+                    <text x="202" y="72">成本</text>
+                    <text x="202" y="92">周期</text>
+                    <text x="202" y="112">可降级路径</text>
+                    <rect x="348" y="24" width="150" height="172" rx="6" fill="#101c2e" stroke="#ffffff14"/>
+                    <text x="364" y="48" fill="#A9CBE0">体验</text>
+                    <text x="364" y="72">可预期</text>
+                    <text x="364" y="92">触感</text>
+                    <text x="364" y="112">失败感知</text>
+                  </g>
+                </svg>
+              </div>
+            </div>
+          </div>
+        </article>
+        </div>
+      </section>
+
+      <!-- Journal -->
+      <section class="journal" id="writing" aria-labelledby="writing-heading">
+        <div class="sec-head">
+          <h2 class="sec-head__title" id="writing-heading">文章与笔记</h2>
+          <a class="sec-head__link" href="#writing">全部</a>
+        </div>
+        <div class="journal__layout">
+          <div class="journal__map">
+            <p class="journal__map-label">主题 · 4 篇</p>
+          <div class="constellation" role="img" aria-label="文章主题星图：硬件、AI、星空、设计">
+            <svg viewBox="0 0 640 220" class="constellation__svg" preserveAspectRatio="xMidYMid meet">
+              <g stroke="#ffffff1a" stroke-width="1" fill="none">
+                <line x1="40" y1="50" x2="200" y2="32"/>
+                <line x1="200" y1="32" x2="420" y2="50"/>
+                <line x1="420" y1="50" x2="600" y2="40"/>
+                <line x1="40" y1="50" x2="130" y2="108"/>
+                <line x1="200" y1="32" x2="270" y2="102"/>
+                <line x1="420" y1="50" x2="500" y2="108"/>
+                <line x1="130" y1="108" x2="270" y2="102"/>
+                <line x1="270" y1="102" x2="500" y2="108"/>
+                <line x1="130" y1="108" x2="200" y2="172"/>
+                <line x1="270" y1="102" x2="360" y2="172"/>
+              </g>
+              <g font-family="system-ui,sans-serif" font-size="13" fill="#c4c8cd">
+                <circle cx="40" cy="50" r="5.5" fill="#8eb8c4"/><text x="54" y="55">硬件</text>
+                <circle cx="200" cy="32" r="5.5" fill="#c8dde8"/><text x="214" y="37">产品判断</text>
+                <circle cx="420" cy="50" r="5.5" fill="#a8c4d0"/><text x="434" y="55">AI</text>
+                <circle cx="600" cy="40" r="5.5" fill="#9ab8c4"/><text x="556" y="26">体验</text>
+                <circle cx="130" cy="108" r="5.5" fill="#7a9aab"/><text x="144" y="113">规格</text>
+                <circle cx="270" cy="102" r="5.5" fill="#b8d0dc"/><text x="284" y="107">界面</text>
+                <circle cx="500" cy="108" r="5.5" fill="#9ab0bc"/><text x="514" y="113">设计</text>
+                <circle cx="200" cy="172" r="5.5" fill="#6a90a0"/><text x="214" y="177">星空</text>
+                <circle cx="360" cy="172" r="5.5" fill="#8aa8b8"/><text x="374" y="177">雪山</text>
+              </g>
+            </svg>
+          </div>
+          </div>
+          <div class="journal__list">
+            <ul class="post-list">
+            <li>
+              <a class="post-row" href="articles/constraint-and-freedom.html">
+                <span class="post-row__title">约束与自由：硬件规格里的产品判断</span>
+                <span class="post-row__chev" aria-hidden="true">↗</span>
+              </a>
+            </li>
+            <li>
+              <a class="post-row" href="articles/highland-stargazing-notes.html">
+                <span class="post-row__title">高原观星笔记</span>
+                <span class="post-row__chev" aria-hidden="true">↗</span>
+              </a>
+            </li>
+            <li>
+              <a class="post-row" href="articles/invisible-ai-ux.html">
+                <span class="post-row__title">看不见的 AI 体验</span>
+                <span class="post-row__chev" aria-hidden="true">↗</span>
+              </a>
+            </li>
+            <li>
+              <a class="post-row" href="articles/mountain-lines-minimal-ui.html">
+                <span class="post-row__title">山脊线与极简界面</span>
+                <span class="post-row__chev" aria-hidden="true">↗</span>
+              </a>
+            </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- Beyond Work -->
+      <section class="beyond" id="beyond" aria-labelledby="beyond-heading">
+        <div class="sec-head">
+          <h2 class="sec-head__title" id="beyond-heading">工作之外</h2>
+        </div>
+        <div class="beyond__wall" aria-label="照片墙">
+          <figure class="photo-tile">
+            <div class="photo-tile__frame" aria-hidden="true"><svg viewBox="0 0 480 200" preserveAspectRatio="xMidYMid slice">
+                  <defs>
+                    <linearGradient id="intSky" x1="0" y1="0" x2="0" y2="1">
+                      <stop offset="0%" stop-color="#060a12"/><stop offset="100%" stop-color="#152030"/>
+                    </linearGradient>
+                  </defs>
+                  <rect width="480" height="200" fill="url(#intSky)"/>
+                  <g fill="#e8eef3"><circle cx="60" cy="40" r="1.2"/><circle cx="120" cy="28" r=".8"/><circle cx="200" cy="50" r="1.4"/><circle cx="280" cy="22" r="1"/><circle cx="360" cy="45" r=".9"/><circle cx="420" cy="30" r="1.1"/><circle cx="90" cy="70" r=".6"/><circle cx="240" cy="65" r=".7"/><circle cx="400" cy="70" r=".5"/></g>
+                  <path d="M40 100 L100 70 L130 85 L180 55 L230 75" fill="none" stroke="#c8dde8" stroke-width="1" opacity=".5"/>
+                  <circle cx="180" cy="55" r="2.5" fill="#c8dde8"/>
+                  <path d="M0 200 V150 L480 150 V200 Z" fill="#0c1218"/>
+                </svg></div>
+            <figcaption class="photo-tile__cap">
+              <span class="photo-tile__place">示例 · 川西</span>
+              <span class="photo-tile__note">看见之前，先学会等待。</span>
+            </figcaption>
+          </figure>
+          <figure class="photo-tile">
+            <div class="photo-tile__frame" aria-hidden="true"><svg viewBox="0 0 480 200" preserveAspectRatio="xMidYMid slice">
+                  <defs>
+                    <linearGradient id="intRidge" x1="0" y1="0" x2="0" y2="1">
+                      <stop offset="0%" stop-color="#0e1620"/><stop offset="100%" stop-color="#2a3848"/>
+                    </linearGradient>
+                  </defs>
+                  <rect width="480" height="200" fill="url(#intRidge)"/>
+                  <path d="M0 200 L80 90 L140 120 L220 50 L300 100 L380 40 L480 95 V200 Z" fill="#6a7a8a" opacity=".5"/>
+                  <path d="M0 200 L80 90 L100 105 L140 120 L90 200 Z" fill="#3a4858" opacity=".55"/>
+                  <path d="M220 50 L260 80 L300 100 L250 200 L180 200 Z" fill="#4a5868" opacity=".45"/>
+                  <path d="M220 50 L250 70 L300 100 L280 70 Z" fill="#8a9aaa" opacity=".25"/>
+                </svg></div>
+            <figcaption class="photo-tile__cap">
+              <span class="photo-tile__place">示例 · 高原山脊徒步</span>
+              <span class="photo-tile__note">约束不是敌人，是地形。</span>
+            </figcaption>
+          </figure>
+          <figure class="photo-tile">
+            <div class="photo-tile__frame" aria-hidden="true"><svg viewBox="0 0 320 180" preserveAspectRatio="xMidYMid slice">
+                <defs>
+                  <linearGradient id="sky1" x1="0" y1="0" x2="0" y2="1">
+                    <stop offset="0%" stop-color="#0a1020"/><stop offset="60%" stop-color="#152038"/><stop offset="100%" stop-color="#1c2a3a"/>
+                  </linearGradient>
+                </defs>
+                <rect width="320" height="180" fill="url(#sky1)"/>
+                <circle cx="40" cy="36" r="1.2" fill="#e8eef3" opacity=".9"/><circle cx="88" cy="22" r=".9" fill="#e8eef3" opacity=".7"/>
+                <circle cx="140" cy="48" r="1.4" fill="#e8eef3"/><circle cx="190" cy="28" r=".8" fill="#e8eef3" opacity=".65"/>
+                <circle cx="240" cy="42" r="1.1" fill="#e8eef3" opacity=".85"/><circle cx="280" cy="18" r="1" fill="#e8eef3" opacity=".75"/>
+                <circle cx="60" cy="70" r=".7" fill="#c8dde8"/><circle cx="210" cy="60" r=".6" fill="#c8dde8"/>
+                <path d="M0 180 L0 130 L40 118 L80 128 L120 100 L160 115 L200 95 L240 110 L280 88 L320 105 L320 180 Z" fill="#121820"/>
+                <path d="M0 180 L0 145 L50 132 L100 142 L150 120 L200 135 L260 118 L320 130 L320 180 Z" fill="#0e141c" opacity=".9"/>
+              </svg></div>
+            <figcaption class="photo-tile__cap">
+              <span class="photo-tile__place">示例 · 川西暗夜</span>
+            </figcaption>
+          </figure>
+          <figure class="photo-tile">
+            <div class="photo-tile__frame" aria-hidden="true"><svg viewBox="0 0 320 180" preserveAspectRatio="xMidYMid slice">
+                <defs>
+                  <linearGradient id="sky2" x1="0" y1="0" x2="0.3" y2="1">
+                    <stop offset="0%" stop-color="#081018"/><stop offset="40%" stop-color="#1a2840"/><stop offset="100%" stop-color="#3a4a58"/>
+                  </linearGradient>
+                </defs>
+                <rect width="320" height="180" fill="url(#sky2)"/>
+                <ellipse cx="250" cy="40" rx="28" ry="28" fill="#dce6ef" opacity=".15"/>
+                <ellipse cx="250" cy="40" rx="18" ry="18" fill="#e8eef3" opacity=".08"/>
+                <path d="M0 180 V110 L60 95 L110 108 L160 78 L210 98 L270 70 L320 90 V180 Z" fill="#182028"/>
+                <path d="M0 180 V130 L80 115 L140 128 L200 105 L260 120 L320 112 V180 Z" fill="#10161e"/>
+              </svg></div>
+            <figcaption class="photo-tile__cap">
+              <span class="photo-tile__place">示例 · 月升山脊</span>
+            </figcaption>
+          </figure>
+          <figure class="photo-tile">
+            <div class="photo-tile__frame" aria-hidden="true"><svg viewBox="0 0 320 180" preserveAspectRatio="xMidYMid slice">
+                <defs>
+                  <linearGradient id="sky3" x1="0" y1="0" x2="0" y2="1">
+                    <stop offset="0%" stop-color="#050810"/><stop offset="50%" stop-color="#101828"/><stop offset="100%" stop-color="#1a2230"/>
+                  </linearGradient>
+                </defs>
+                <rect width="320" height="180" fill="url(#sky3)"/>
+                <g fill="#e8eef3">
+                  <circle cx="50" cy="30" r="1"/><circle cx="95" cy="45" r=".7"/><circle cx="130" cy="20" r="1.2"/>
+                  <circle cx="170" cy="38" r=".8"/><circle cx="220" cy="25" r="1"/><circle cx="265" cy="50" r=".6"/>
+                  <circle cx="300" cy="32" r=".9"/><circle cx="75" cy="60" r=".5"/><circle cx="185" cy="55" r=".7"/>
+                </g>
+                <path d="M20 90 L80 55 L100 70 L140 40 L180 65 L220 35 L260 58 L300 42" fill="none" stroke="#c8dde8" stroke-width=".8" opacity=".55"/>
+                <circle cx="140" cy="40" r="2.2" fill="#c8dde8"/><circle cx="220" cy="35" r="1.8" fill="#c8dde8"/>
+                <path d="M0 180 V140 L320 140 V180 Z" fill="#0c1218"/>
+                <rect x="0" y="138" width="320" height="1" fill="#ffffff14"/>
+              </svg></div>
+            <figcaption class="photo-tile__cap">
+              <span class="photo-tile__place">示例 · 星图手记</span>
+            </figcaption>
+          </figure>
+          <figure class="photo-tile">
+            <div class="photo-tile__frame" aria-hidden="true"><svg viewBox="0 0 320 180" preserveAspectRatio="xMidYMid slice">
+                <defs>
+                  <linearGradient id="sky4" x1="0" y1="0" x2="0" y2="1">
+                    <stop offset="0%" stop-color="#0a1018"/><stop offset="55%" stop-color="#152030"/><stop offset="100%" stop-color="#1c2836"/>
+                  </linearGradient>
+                </defs>
+                <rect width="320" height="180" fill="url(#sky4)"/>
+                <path d="M0 180 L40 100 L70 120 L110 60 L150 95 L190 45 L230 85 L270 55 L320 100 V180 Z" fill="#3e4c5c" opacity=".7"/>
+                <path d="M0 180 L40 100 L55 112 L70 120 L50 180 Z" fill="#2a3644" opacity=".65"/>
+                <path d="M150 95 L190 45 L210 70 L230 85 L180 180 L140 180 Z" fill="#344250" opacity=".6"/>
+                <path d="M110 60 L130 72 L150 95 L190 45 L170 55 Z" fill="#6a7a8a" opacity=".22"/>
+              </svg></div>
+            <figcaption class="photo-tile__cap">
+              <span class="photo-tile__place">示例 · 雪线之上</span>
+            </figcaption>
+          </figure>
+          <figure class="photo-tile photo-tile--full">
+            <div class="photo-tile__frame" aria-hidden="true"><svg viewBox="0 0 320 180" preserveAspectRatio="xMidYMid slice">
+                <defs>
+                  <radialGradient id="sky5" cx="50%" cy="40%" r="70%">
+                    <stop offset="0%" stop-color="#1a2838"/><stop offset="100%" stop-color="#0a1018"/>
+                  </radialGradient>
+                </defs>
+                <rect width="320" height="180" fill="url(#sky5)"/>
+                <g stroke="#c8dde8" stroke-width=".6" fill="none" opacity=".4">
+                  <ellipse cx="160" cy="80" rx="90" ry="35"/><ellipse cx="160" cy="80" rx="55" ry="20"/>
+                </g>
+                <circle cx="160" cy="80" r="3" fill="#e8eef3"/>
+                <circle cx="100" cy="70" r="1.2" fill="#c8dde8"/><circle cx="220" cy="90" r="1" fill="#c8dde8"/>
+                <circle cx="140" cy="50" r=".8" fill="#e8eef3"/><circle cx="190" cy="55" r=".7" fill="#e8eef3"/>
+                <path d="M0 180 V150 Q80 130 160 148 T320 145 V180 Z" fill="#10161e"/>
+              </svg></div>
+            <figcaption class="photo-tile__cap">
+              <span class="photo-tile__place">示例 · 银河窗口</span>
+            </figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <!-- Contact -->
+      <section class="contact" id="contact" aria-labelledby="contact-heading">
+        <div class="sec-head">
+          <h2 class="sec-head__title" id="contact-heading">联系</h2>
+        </div>
+        <div class="social-card">
+          <p class="social-card__note">聊产品，也聊星空与雪山。</p>
+          <div class="email-row">
+            <a id="emailText" href="mailto:hello@zone.example">hello@zone.example</a>
+            <button id="copyEmail" type="button" data-email="hello@zone.example">复制</button>
+          </div>
+          <p id="copyStatus" class="sr-only" role="status" aria-live="polite"></p>
+          <ul class="social-pending" aria-label="社交账号待替换">
+              <li><a href="#">X</a> <small>待替换</small></li>
+              <li><a href="#">LinkedIn</a> <small>待替换</small></li>
+              <li><a href="#">GitHub</a> <small>待替换</small></li>
+              <li><a href="#">即刻</a> <small>待替换</small></li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-foot">
+      <span>© 2026 Zone Slogger</span>
+      <a href="#contact">联系我 ↑</a>
+    </footer>
+  </div>
+
+  <script src="assets/site.js"></script>
+</body>
+</html>

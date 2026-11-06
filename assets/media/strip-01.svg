@@ -1,0 +1,14 @@
+<svg viewBox="0 0 320 180" preserveAspectRatio="xMidYMid slice">
+                <defs>
+                  <linearGradient id="sky1" x1="0" y1="0" x2="0" y2="1">
+                    <stop offset="0%" stop-color="#0a1020"/><stop offset="60%" stop-color="#152038"/><stop offset="100%" stop-color="#1c2a3a"/>
+                  </linearGradient>
+                </defs>
+                <rect width="320" height="180" fill="url(#sky1)"/>
+                <circle cx="40" cy="36" r="1.2" fill="#e8eef3" opacity=".9"/><circle cx="88" cy="22" r=".9" fill="#e8eef3" opacity=".7"/>
+                <circle cx="140" cy="48" r="1.4" fill="#e8eef3"/><circle cx="190" cy="28" r=".8" fill="#e8eef3" opacity=".65"/>
+                <circle cx="240" cy="42" r="1.1" fill="#e8eef3" opacity=".85"/><circle cx="280" cy="18" r="1" fill="#e8eef3" opacity=".75"/>
+                <circle cx="60" cy="70" r=".7" fill="#c8dde8"/><circle cx="210" cy="60" r=".6" fill="#c8dde8"/>
+                <path d="M0 180 L0 130 L40 118 L80 128 L120 100 L160 115 L200 95 L240 110 L280 88 L320 105 L320 180 Z" fill="#121820"/>
+                <path d="M0 180 L0 145 L50 132 L100 142 L150 120 L200 135 L260 118 L320 130 L320 180 Z" fill="#0e141c" opacity=".9"/>
+              </svg>

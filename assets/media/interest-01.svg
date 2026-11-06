@@ -1,0 +1,12 @@
+<svg viewBox="0 0 480 200" preserveAspectRatio="xMidYMid slice">
+                  <defs>
+                    <linearGradient id="intSky" x1="0" y1="0" x2="0" y2="1">
+                      <stop offset="0%" stop-color="#060a12"/><stop offset="100%" stop-color="#152030"/>
+                    </linearGradient>
+                  </defs>
+                  <rect width="480" height="200" fill="url(#intSky)"/>
+                  <g fill="#e8eef3"><circle cx="60" cy="40" r="1.2"/><circle cx="120" cy="28" r=".8"/><circle cx="200" cy="50" r="1.4"/><circle cx="280" cy="22" r="1"/><circle cx="360" cy="45" r=".9"/><circle cx="420" cy="30" r="1.1"/><circle cx="90" cy="70" r=".6"/><circle cx="240" cy="65" r=".7"/><circle cx="400" cy="70" r=".5"/></g>
+                  <path d="M40 100 L100 70 L130 85 L180 55 L230 75" fill="none" stroke="#c8dde8" stroke-width="1" opacity=".5"/>
+                  <circle cx="180" cy="55" r="2.5" fill="#c8dde8"/>
+                  <path d="M0 200 V150 L480 150 V200 Z" fill="#0c1218"/>
+                </svg>
